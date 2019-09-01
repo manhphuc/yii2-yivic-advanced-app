@@ -1,0 +1,60 @@
+# For this structure
+/.htaccess
+/environment.php
+/common/config/common-env.php
+/common/config/params-common-env.php
+/backend/config/backend-env.php
+/backend/config/params-backend-env.php
+/frontend/config/frontend-env.php
+/frontend/config/params-frontend-env.php
+/api/config/api-env.php
+/api/config/params-api-env.php
+/console/config/console-env.php
+/console/config/params-console-env.php
+
+
+# For Yii2 application
+/common/extensions
+/vendor
+
+# Other resources
+_htmls
+_resources
+
+# sass
+.sass-cache
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+__MACOSX/
+
+# phpunit itself is not needed
+phpunit.phar
+
+#robot file
+robot.txt
+
+#prepros file
+prepros.cfg
+
+# applications
+# CodeKit
+config.codekit
+.codekit-cache
